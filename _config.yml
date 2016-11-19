@@ -9,8 +9,8 @@ url: ""
 # Delete the lines you don't need
 # about 5 elements are recommended
 cv_username:  shengxu
-pub_list: pub_list
-project_list: project_list
+pub_list: publications
+project_list: projects
 blog: blog
 others: others
 
