@@ -19,22 +19,22 @@ body {
     left: 0;
 }
 #avatar {
-    height: 180px;
+    height: 380px;
     border-radius: 100%;
-    border: 5px solid white;
-    margin-bottom: 40px;
+    border: 10px solid white;
+    margin-bottom: 45px;
 }
 h1 {
     color: white;
     font-weight: bold;
     letter-spacing: 0.1em;
-    font-size: 4em;
+    font-size: 8em;
     font-family: 'Open Sans';
     margin: -10px 0;
 }
 h3 {
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     font-weight: thin;
 }
 .content {
@@ -49,13 +49,13 @@ ul {
 }
 li {
     border-radius: 100%;
-    border: 2px solid white;
+    border: 10px solid white;
     color: white;
-    margin: 8px;
+    margin: 20px;
     display: inline-block;
     list-style: none;
-    width: 65px;
-    height: 65px;
+    width: 130px;
+    height: 130px;
 }
 li:hover {
     color: white;
