@@ -6,10 +6,11 @@ url: ""
 
 # Delete the lines you don't need
 # about 5 elements are recommended
-github_username:  dashingcode
-codepen_username: your_codepen_username_goes_here
-facebook_username: your_facebook_username_goes_here
-vk_username: your_vk_username_goes_here
+cv_username:  shengxu
+pub_list: pub_list
+project_list: project_list
+blog: blog
+others: others
 
 
 avatar: yes

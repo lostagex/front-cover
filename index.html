@@ -31,20 +31,24 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
-                    {% if site.github_username %}
-                    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
+                    {% if site.cv_username %} <!-- cv online -->
+                    <li><a class="fa fa-2x fa-github" href="https://lostagex.github.io/{{ site.cv_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
 
-                    {% if site.codepen_username %}
-                    <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
+                    {% if site.pub_list %} <!-- Publications--> 
+                    <li><a class="fa fa-2x fa-codepen" href="https://lostagex.github.io/{{ site.pub_list }}"><span class="description">CodePen</span></a></li>
                     {% endif %}
 
-                    {% if site.facebook_username %}
-                    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
+                    {% if site.project_list %} <!-- Projects-->
+                    <li><a class="fa fa-2x fa-facebook" href="https://lostagex.github.io/{{ site.project_list }}"><span class="description">Facebook</span></a></li>
+                    {% endif %}
+					
+                    {% if site.blog%} <!-- Projects-->
+                    <li><a class="fa fa-2x fa-facebook" href="https://lostagex.github.io/{{ site.blog}}"><span class="description">Facebook</span></a></li>
                     {% endif %}
 
-                    {% if site.vk_username %}
-                    <li><a class="fa fa-2x fa-vk" href="https://vk.com/{{ site.vk_username }}"><span class="description">ВКонтакте</span></a></li>
+                    {% if site.others %}  <!-- Others -->
+                    <li><a class="fa fa-2x fa-vk" href="https://lostagex.github.io/{{ site.others }}"><span class="description">ВКонтакте</span></a></li>
                     {% endif %}
 
                 </ul>
@@ -52,3 +56,5 @@ permalink: /
 
     </body>
 </html>
+
+
