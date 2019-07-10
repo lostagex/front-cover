@@ -2,17 +2,23 @@
 
 # Site settings
 name: Sheng Xu
-description: "Hope is a good thing"
+description: "HOPE IS A GOOD THING !"
 url: ""
 
 
-# Delete the lines you don't need
 # about 5 elements are recommended
+# cv_username:  cv_online
+# pub_list: publications
+# project_list: projects
+# blog: blog
+# others: others
+
+aboutme: aboutme
 cv_username:  cv_online
 pub_list: publications
 project_list: projects
-blog: blog
 others: others
+
 
 
 avatar: yes

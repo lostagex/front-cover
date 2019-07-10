@@ -31,6 +31,11 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
+				
+				    {% if site.aboutme %} <!-- about me -->
+                    <li><a class="fa fa-5x fa-info" href="https://lostagex.github.io/{{ site.aboutme }}"><span class="description">AboutMe</span></a></li>
+                    {% endif %}
+
                     {% if site.cv_username %} <!-- cv online -->
                     <li><a class="fa fa-5x fa-info" href="https://lostagex.github.io/{{ site.cv_username }}"><span class="description">CV_Online</span></a></li>
                     {% endif %}
@@ -43,10 +48,6 @@ permalink: /
                     <li><a class="fa fa-5x fa-cog fa-spin" href="https://lostagex.github.io/{{ site.project_list }}"><span class="description">Projects</span></a></li>
                     {% endif %}
 					
-                    {% if site.blog%} <!-- blog-->
-                    <li><a class="fa fa-5x fa-hourglass-3" href="https://lostagex.github.io/{{ site.blog}}"><span class="description">Blog</span></a></li>
-                    {% endif %}
-
                     {% if site.others %}  <!-- Others -->
                     <li><a class="fa fa-5x fa-archive" href="https://lostagex.github.io/{{ site.others }}"><span class="description">Others</span></a></li>
                     {% endif %}
