@@ -13,13 +13,6 @@ url: ""
 # blog: blog
 # others: others
 
-blog: blog
-cv_username:  cv_online
-pub_list: publications
-project_list: projects
-others: others
-
-
 
 avatar: yes
 #avatar_img_path: "imgs/avatar.jpg""
