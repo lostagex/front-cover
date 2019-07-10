@@ -7,10 +7,10 @@ url: ""
 
 
 # about 5 elements are recommended
+blog: blog
 cv_username:  cv_online
 pub_list: publications
 project_list: projects
-blog: blog
 others: others
 
 
